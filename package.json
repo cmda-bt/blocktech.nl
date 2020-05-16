@@ -1,0 +1,19 @@
+{
+  "name": "blocktech.nl",
+  "version": "1.0.0",
+  "description": "Landing page and course website for block tech @CMDA. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmda-bt/blocktech.nl.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cmda-bt/blocktech.nl/issues"
+  },
+  "homepage": "https://github.com/cmda-bt/blocktech.nl#readme"
+}
