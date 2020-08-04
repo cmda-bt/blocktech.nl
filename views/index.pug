@@ -1,4 +1,47 @@
 extends layout
 
 block content
-  include:markdown-it ../pages/index.md
+  h2 Courses
+  section.courses
+    article
+      img(src="/static/assets/banner_project-tech.svg")
+      h3 Project-tech
+      p In project-tech you build a dynamic prototype of a matching application. You’ll also learn about “soft” and “hard” skills; how to use the command line, a text editor, version control, build tools, and code quality.
+      a.button(href="/material") See syllabus Project-tech
+    article
+      img(src="/static/assets/banner_back-end.svg")
+      h3 Back-end
+      p In Backend we peek behind the curtains and inspect what’s behind the web. You build web apps with Node.js, communicate with HTTP, and store data in a database with MongoDB.
+      a.button(href="/material") See syllabus Back-end
+    article
+      img(src="/static/assets/banner_front-end.svg")
+      h3 Front-end
+      p In Front-end we concentrate on improving the knowledge core JavaScript concepts and learn how to progressively enhance interfaces with HTML, CSS & JavaScript. 
+      a.button(href="/material") See syllabus Front-end
+  
+  h2 Other links
+  section.other
+    article.cta
+      h3 Study material
+      p Extra reference material like zines, cheat sheets and stickers!
+      a.button(href="/material") View study material
+    article.cta
+      h3 Screencasts
+      p Video's, talks and live demo's for you to watch on your own pace.
+      a.button(href="/material") Watch live demo's  
+    article.cta
+      h3 Grades
+      p We use Brightspace for feedback, rubrics and grades so login to see your progress.
+      a.button(href="/material") Go to Brightspace
+    article.cta
+      h3 MS Teams
+      p The place to message teachers, ask questions and connect with other students following blok tech.
+      a.button(href="/material") Join Microsoft Teams
+    article.cta
+      h3 Showcase
+      p Examples of student work from previous years, evaluations and quotes from other students.
+      a.button(href="/material") View student work
+    article.cta
+      h3 Classlist
+      p Meet some of our current and previous students and learn a little bit more about them.
+      a.button(href="/material") List of previous students      
