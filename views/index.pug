@@ -1,23 +1,24 @@
 extends layout
 
 block content
+  +header('Blok Tech', '/static/assets/background.svg')
   h2 Courses
   section.courses
     article
       img(src="/static/assets/banner_project-tech.svg")
       h3 Project-tech
       p In project-tech you build a dynamic prototype of a matching application. You’ll also learn about “soft” and “hard” skills; how to use the command line, a text editor, version control, build tools, and code quality.
-      a.button(href="/material") See syllabus Project-tech
+      a.button(href="/project-tech") See syllabus Project-tech
     article
       img(src="/static/assets/banner_back-end.svg")
       h3 Back-end
       p In Backend we peek behind the curtains and inspect what’s behind the web. You build web apps with Node.js, communicate with HTTP, and store data in a database with MongoDB.
-      a.button(href="/material") See syllabus Back-end
+      a.button(href="/back-end") See syllabus Back-end
     article
       img(src="/static/assets/banner_front-end.svg")
       h3 Front-end
       p In Front-end we concentrate on improving the knowledge core JavaScript concepts and learn how to progressively enhance interfaces with HTML, CSS & JavaScript. 
-      a.button(href="/material") See syllabus Front-end
+      a.button(href="/front-end") See syllabus Front-end
   
   h2 Other links
   section.other

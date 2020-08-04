@@ -1,4 +1,6 @@
 extends layout
 
 block content
+  +header('Front-end', '/static/assets/background_front-end.svg')
+  +cornerfe()
   include:markdown-it ../pages/front-end.md
