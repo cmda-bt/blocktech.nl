@@ -1,6 +1,10 @@
-extends layout
-
+extends detail
+  
 block content
-  +header('Project-tech', '/static/assets/background_project-tech.svg')
-  +cornerpt()
-  include:markdown-it ../pages/project-tech.md
+    header
+      +nav()
+      +header('Project-tech', '/static/assets/background_project-tech.svg')
+    main
+      +cornerpt()
+      include:markdown-it ../pages/project-tech.md
+      +footer()
