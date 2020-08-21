@@ -1,0 +1,8 @@
+extends detail
+
+block content
+  header
+    +nav()
+    +header('Showcase', '/static/assets/background.svg')
+  main
+    include:markdown-it ../pages/showcase.md

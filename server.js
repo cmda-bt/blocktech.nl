@@ -13,6 +13,7 @@ app.get('/back-end', backend);
 app.get('/front-end', frontend);
 app.get('/project-tech', project);
 app.get('/classlist', classlist);
+app.get('/showcase', showcase);
 
 function index(req, res) {
   res.render('index');
@@ -32,6 +33,10 @@ function project(req, res) {
 
 function classlist(req, res) {
   res.render('classlist', { students });
+}
+
+function showcase(req, res) {
+  res.render('showcase');
 }
 
 app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`))
