@@ -183,3 +183,11 @@ blockquote {
   border: 1px solid white;
   padding: 1.5em;
 }
+
+tr {
+  vertical-align: top;
+}
+
+td {
+  width: 25%;
+}

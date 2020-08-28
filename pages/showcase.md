@@ -1,22 +1,17 @@
-## Scores
+## Projects
 
-```
-Blok Tech 20/21 scores an average of 7.8 (all courses combined) in the student survey!
-```
+Here are some results from the previous years. **Note**: _The curriculum of this year might have different requirements then the examples shown below_.
 
-### Back-end
-* Students give this course an **8.2** in the student survey!
-* Students give a **5/7** on _difficulty_.
-* Students give a **6/7** on _fun_.
-* Students give a **6/7** on _good_.
+|                                                                                 |                                                                      |                                                                              |
+| ------------------------------------------------------------------------------- | -------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| [@martijnkeesmaat](https://github.com/MartijnKeesmaat) ![Martijn Keesmaat][img] | [@iSirThijs](https://github.com/iSirThijs) ![Martijn Keesmaat][img2] | [@emmaoudmaijer](https://github.com/emmaoudmaijer) ![Martijn Keesmaat][img3] |
 
-### Project-tech
-* Students give this course an **8.2** in the student survey!
-* Students give a **5/7** on _difficulty_.
-* Students give a **6/7** on _fun_.
-* Students give a **6/7** on _good_.
+|                                                                    |                                                                     |                                                                    |
+| ------------------------------------------------------------------ | ------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [@BVictorB](https://github.com/BVictorB) ![Martijn Keesmaat][img4] | [@dewarian](https://github.com/dewarian/) ![Martijn Keesmaat][img5] | [@sjagoori](https://github.com/sjagoori) ![Martijn Keesmaat][img6] |
 
 ## Quotes
+
 
 > 'Block Tech was uitdagend maar tot nu toe het allerbeste wat me ooit op CMD is overkomen.'
 >
@@ -42,4 +37,31 @@ Blok Tech 20/21 scores an average of 7.8 (all courses combined) in the student s
 >
 > — **@anonymous student**
 
-## Projects
+## Scores
+
+### Blok Tech scores an average of 7.8 (all courses combined) in the student survey from all previous academic years combined!
+
+### Back-end 19/20
+* Students give this course an **8.2** in the student survey!
+* Students give a **6/7** on _difficulty_.
+* Students give a **6/7** on _fun_.
+* Students give a **6/7** on _good_.
+
+### Project-tech 19/20
+* Students give this course an **7.1** in the student survey!
+* Students give a **4/7** on _difficulty_.
+* Students give a **NaN/7** on _fun_.
+* Students give a **NaN/7** on _good_.
+
+### Front-end 19/20
+* Students give this course an **6.5** in the student survey.
+* Students give a **5/7** on _difficulty_.
+* Students give a **4/7** on _fun_.
+* Students give a **5/7** on _good_.
+
+[img]: /static/assets/martijn.jpg
+[img2]: /static/assets/thijs.jpg
+[img3]: /static/assets/emma.jpg
+[img4]: https://raw.githubusercontent.com/cmda-bt/be-course-19-20/master/assets/images/victor.png
+[img5]: https://raw.githubusercontent.com/cmda-bt/be-course-19-20/master/assets/images/dewarian.png
+[img6]:  https://raw.githubusercontent.com/cmda-bt/be-course-19-20/master/assets/images/sjagoori.png
