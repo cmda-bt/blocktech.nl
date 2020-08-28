@@ -107,6 +107,8 @@ nav ul {
 
 nav {
   border-bottom: 1px solid var(--white);
+  border-top: 1px solid var(--white);
+  background: var(--blue);
 }
 
 nav ul li {
@@ -190,4 +192,12 @@ tr {
 
 td {
   width: 25%;
+}
+
+a:visited {
+  color: white;
+}
+
+a {
+  color: white;
 }

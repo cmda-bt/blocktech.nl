@@ -12,6 +12,9 @@ app.get('/', index);
 app.get('/back-end', backend);
 app.get('/front-end', frontend);
 app.get('/project-tech', project);
+app.get('/grades', grades);
+app.get('/videos', videos);
+app.get('/resources', resources);
 app.get('/classlist', classlist);
 app.get('/showcase', showcase);
 
@@ -33,6 +36,18 @@ function project(req, res) {
 
 function classlist(req, res) {
   res.render('classlist', { students });
+}
+
+function videos(req, res) {
+  res.render('videos');
+}
+
+function grades(req, res) {
+  res.render('grades');
+}
+
+function resources(req, res) {
+  res.render('resources');
 }
 
 function showcase(req, res) {
