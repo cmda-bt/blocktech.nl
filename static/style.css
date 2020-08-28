@@ -148,6 +148,8 @@ nav ul li a {
   top: 30px;
   position: sticky;
   margin-bottom: 4em;
+  height: 40vh;
+  overflow: hidden;
 }
 
 .homepage {
@@ -200,4 +202,10 @@ a:visited {
 
 a {
   color: white;
+}
+
+.promo {
+  position: absolute;
+right: -30%;
+top: 15%;
 }
