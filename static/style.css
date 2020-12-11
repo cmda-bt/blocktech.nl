@@ -2,6 +2,7 @@
   --black: #000;
   --blue: #512ffe;
   --white: #fff;
+  --yellow: #FFF021;
 }
 
 body {
@@ -19,7 +20,7 @@ main {
 }
 main header {
   color: var(--white);
-  height: 30vh;
+  height: 40vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -128,10 +129,13 @@ nav ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 40vh;
 }
 
 .head h1 {
   position: absolute;
+  margin: 0;
+  padding: 0;
 }
 
 .head img {

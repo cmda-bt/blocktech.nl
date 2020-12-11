@@ -7,7 +7,7 @@
   <style>
     :root { color: black; background-color: currentcolor; max-width: 100% }
     body { margin: 0 }
-    path { fill: none; stroke: #fff021; stroke-width: 5px; stroke-linecap: round; stroke-opacity: 0.05 }
+    path { fill: none; stroke: #512ffe; stroke-width: 5px; stroke-linecap: round; stroke-opacity: 0.05 }
     path:nth-child(odd) { stroke-opacity: 0.075 }
   </style>
   <rect width="100%" height="100%" fill="currentcolor"/>
@@ -883,7 +883,7 @@
     font-family="courier new, courier, monospace"
     font-weight="bold"
     font-size="120"
-    fill="#fff021"
+    fill="#512ffe"
     text-anchor="middle"
     alignment-baseline="middle"
   >fe()

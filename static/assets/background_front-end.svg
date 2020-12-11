@@ -5,12 +5,12 @@
 >
   <title>Blok Tech</title>
   <style>
-    :root { color: black; background-color: #fff021; max-width: 100% }
+    :root { color: black; background-color: #512ffe; max-width: 100% }
     body { margin: 0 }
     path { fill: none; stroke: black; stroke-width: 5px; stroke-linecap: round; stroke-opacity: 0.05 }
     path:nth-child(odd) { stroke-opacity: 0.075 }
   </style>
-  <rect width="100%" height="80%" fill="#fff021"/>
+  <rect width="100%" height="80%" fill="#512ffe"/>
   <defs>
   <path id="t1" d="M7.76,10.89c-1.5,2.18-2.77,4.5-4.27,6.68-1.12,1.63-2.22,4-.86,5.41a4.34,4.34,0,0,0,2.25,1,130.06,130.06,0,0,0,24.85,3.36,2.65,2.65,0,0,0,2-.45,2.5,2.5,0,0,0,.51-2c-.43-7.43-5.32-13.76-10-19.55C21.15,4,20,2.67,18.4,2.18a5.71,5.71,0,0,0-5,1.19,16.87,16.87,0,0,0-3.43,4c-1.43,2.11-.79,1.36-2.23,3.47">
     <animate
