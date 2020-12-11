@@ -213,3 +213,9 @@ a {
 right: -30%;
 top: 15%;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+}

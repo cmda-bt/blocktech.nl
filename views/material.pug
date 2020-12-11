@@ -1,0 +1,19 @@
+extends detail
+
+block content
+  header
+    +nav()
+    +header('Material', '/static/assets/background.svg')
+  main
+    h2 Study material
+    h3 memes
+
+    section(class="grid")
+      <blockquote class="twitter-tweet"><p lang="en" dir="ltr">when you’re grocery shopping but you get a slack notification saying the database is down <a href="https://t.co/pUxcUKbCk4">pic.twitter.com/pUxcUKbCk4</a></p>&mdash; daryl (@darylginn) <a href="https://twitter.com/darylginn/status/1304110775536148488?ref_src=twsrc%5Etfw">September 10, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <blockquote class="twitter-tweet"><p lang="en" dir="ltr">me logging on to WFH at 9:00 after waking up at 8:59 <a href="https://t.co/233dZSGT9H">pic.twitter.com/233dZSGT9H</a></p>&mdash; .dan (@danieldamnsure) <a href="https://twitter.com/danieldamnsure/status/1298995455078969344?ref_src=twsrc%5Etfw">August 27, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <blockquote class="twitter-tweet"><p lang="en" dir="ltr">To students starting school today,<br><br>Please be nice to your teachers. My dad is 53 years old, and not a whiz w technology. He’s called me EVERY day, attempting to practice because he’s so nervous and wants what’s best for his students.<br><br>Please be patient with them. They’re trying.</p>&mdash; ny (@nyla_danae) <a href="https://twitter.com/nyla_danae/status/1295367618875068417?ref_src=twsrc%5Etfw">August 17, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/s12npdDmGUc?start=529" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    h3 jokes
+
+    include:markdown-it ../pages/jokes.md

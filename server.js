@@ -14,7 +14,7 @@ app.get('/front-end', frontend);
 app.get('/project-tech', project);
 app.get('/grades', grades);
 app.get('/videos', videos);
-app.get('/resources', resources);
+app.get('/material', material);
 app.get('/classlist', classlist);
 app.get('/showcase', showcase);
 
@@ -52,6 +52,10 @@ function resources(req, res) {
 
 function showcase(req, res) {
   res.render('showcase');
+}
+
+function material(req, res) {
+  res.render('material');
 }
 
 app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`))
